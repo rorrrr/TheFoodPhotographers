@@ -1,4 +1,4 @@
-body{
+/*body{
   background:
 
   url(Food1.jpg) no-repeat center center fixed; 
@@ -6,7 +6,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  transition: fade 1s;}
+  transition: fade 1s;}*/
 
 
 div#preload { display: none; }
