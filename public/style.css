@@ -1,0 +1,18 @@
+body{
+  background:
+
+  url(Food1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: fade 1s;}
+
+
+div#preload { display: none; }
+
+
+/*  linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+        ),*/
