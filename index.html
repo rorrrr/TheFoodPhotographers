@@ -7,21 +7,46 @@
   <link rel="stylesheet" href="bgImageGallery.css">
 </head>
 <body id='body'>
-  <header>
-    <h1>Welcome to the site</h1>
-  </header>
-  <main>
-    <intro>
-      <p>Contact details below</p>
-    </intro>
-  </main>
+  <script>document.body.className += ' fade-out';</script>
+  <nav>
+    <ul>
+      <li onClick="coverageShow();"><h2 id = "coverage">COVERAGE</></li>
+        <li onClick="clientsShow();"><h2 id = "clients">CLIENTS</></li>
+          <li onClick="contactShow();"><h2 id = "contact">CONTACT</></li>
+    </ul>
+  </nav>
+
+    <div id="central">
+      <p>the food photographers</p>
+      <p id="bodytext">We specialise in on location food photography for local restaurants and global corporations</p>
+    </div>
+
+    <div id="coverageContent">
+      <p>COVERAGE</p>
+      <img src="map.png">
+    </div>
+
+    <div id="clientsContent">
+      <p>CLIENTS</p>
+      <img id="deliveroo_logo" src="http://www.underconsideration.com/brandnew/archives/deliveroo_logo.png">
+      <img id="meal-pal-wide" src="https://knoji.com/images/logo/meal-pal-wide.jpg">
+    </div>
+
+    <div id="contactContent">
+      <!-- <p>Contact</p> -->
+      <p id="bodytext">Email:</p> <p id="underlined">contact@thefoodphotographers.me</p>
+      <p id="bodytext"> Phone: 07123 896541</p>
+    </div>
+
+
     <script src="BGimageGallery.js"></script>
     <script src="app.js"></script>
-</body>
-</html>
-<div id="preload">
+  </body>
+  </html>
+
+  <div id="preload">
    <img src="Food1.jpg" width="1" height="1" alt="Image 01" />
    <img src="Food2.jpg" width="1" height="1" alt="Image 02" />
    <img src="Food3.jpg" width="1" height="1" alt="Image 03" />
    <img src="Food4.jpg" width="1" height="1" alt="Image 04" />
-</div>
+ </div>
