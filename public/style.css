@@ -12,14 +12,14 @@ div#preload { display: none; }
 }
 
 body {
-    opacity: 1;
-    transition: 1s opacity;
-    margin: 0px;
-    background: black;
+  opacity: 1;
+  transition: 1s opacity;
+  margin: 0px;
+  background: black;
 }
 body.fade-out {
-    opacity: 0;
-    transition: none;
+  opacity: 0;
+  transition: none;
 }
 
 nav {
@@ -83,10 +83,12 @@ margin-right: auto;*/
 
 div#coverageContent {
   display: none;
+  /*max-height: 75%;*/
+  /*height: 38vw;*/
   background: rgba(0, 0, 0, 0.6);
   margin: 0;
   padding: 1em;
-  top: 50%;
+  top: 55%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -95,9 +97,20 @@ div#coverageContent {
   border-radius: 10px;
   align-content: center;
   text-align: center;
+  content: contain;
+  /*object-fit: contain;*/
 /*  margin-left: auto;
 margin-right: auto;*/
 /*width: 66%;*/
+}
+
+div#coverageContent img {
+  max-height: 480px;
+  min-height: 100px;
+  min-width: 70%;
+  width: auto;
+  height: auto;
+  position: relative;
 }
 
 div#coverageContent p {
@@ -112,6 +125,8 @@ div#coverageContent p {
 
 div#clientsContent {
   display: none;
+  max-height: 50%;
+  max-width: 40%;
   background: rgba(0, 0, 0, 0.6);
   margin: 0;
   padding: 1em;
@@ -131,23 +146,26 @@ margin-right: auto;*/
 
 div#clientsContent p {
   /*display: inline-block;*/
+  /*max-height: 15%;*/
   font-family: 'Fancy';
   margin: 0.1em 0.0em 0.1em 0.0em;
   color: white;
   letter-spacing: 0.05em;
   font-size: 8vw;
   text-shadow: 3px 3px rgb(0, 0, 0);
+
 }
 
 div#clientsContent img {
-  width: 13em;
+  width: 25%;
+  height: auto;
   margin: 0.1em 0.0em 0.1em 0.0em;
 }
 
 div#clientsContent img#meal-pal-wide {
-  margin-bottom: 2em;
-  margin-left: 2em;
-  width: 16em;
+/*  margin-bottom: 2em;
+  margin-left: 2em;*/
+
 }
 
 
@@ -157,25 +175,6 @@ div#contactContent {
   margin: 0;
   padding: 1em;
   top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  /*border: white 1px solid;*/
-  border-radius: 10px;
-  align-content: center;
-  text-align: center;
-/*  margin-left: auto;
-margin-right: auto;*/
-/*width: 66%;*/
-}
-
-div#coverageContent {
-  display: none;
-  background: rgba(0, 0, 0, 0.6);
-  margin: 0;
-  padding: 1em;
-  top: 55%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -208,6 +207,7 @@ div#central p {
   font-size: 8vw;
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
+
 
 div#central p#bodytext {
   /*font-family: 'Fancy';*/

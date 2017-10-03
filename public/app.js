@@ -1,4 +1,4 @@
-console.log('application ran');
+// console.log('application ran');
 
 // var imageCount = 1;
 // var total = 4;
@@ -14,10 +14,10 @@ console.log('application ran');
 window.onload = function () { document.body.className = ""; }
 
 var images = [
-{image: 'Food2.jpg'},
-{image: 'Food1.jpg'},
-{image: 'Food3.jpg'},
-{image: 'Food4.jpg'}
+{image: 'Food2.jpg', credits: 'Photo by Chi Lamb'},
+{image: 'Food1.jpg', credits: 'Photo by Megan Redden'},
+{image: 'Food3.jpg', credits: 'Photo by Abigail Denniston'},
+{image: 'Food4.jpg', credits: 'Photo by Drew Cunningham'}
 ];
 
 bgImageGallery(images, 'body', 8000, false);
@@ -33,7 +33,6 @@ function coverageShow(){
   coverageContent.style.display = "block";
   contactContent.style.display = "none";
   clientsContent.style.display = "none";
-  console.log('coverageclick');
 }
 
 function clientsShow()
@@ -42,7 +41,6 @@ function clientsShow()
   coverageContent.style.display = "none";
   contactContent.style.display = "none";
   clientsContent.style.display = "block";
-  console.log('coverageclick');
 }
 
 function contactShow()
@@ -51,7 +49,6 @@ function contactShow()
   coverageContent.style.display = "none";
   contactContent.style.display = "block";
   clientsContent.style.display = "none";
-  console.log('coverageclick');
 }
 
 
