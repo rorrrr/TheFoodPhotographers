@@ -14,7 +14,7 @@
 window.onload = function () { document.body.className = ""; }
 
 var images = [
-{image: 'Food2.jpg', credits: 'Photo by Chi Lamb'},
+{image: 'Food2.jpg', credits: 'Photo by Chi Lam'},
 {image: 'Food1.jpg', credits: 'Photo by Megan Redden'},
 {image: 'Food3.jpg', credits: 'Photo by Abigail Denniston'},
 {image: 'Food4.jpg', credits: 'Photo by Drew Cunningham'}
